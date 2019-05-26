@@ -1,0 +1,19 @@
+using system calls and shared libraries - can't develop on Windows since it doesnt have sbreak system call which malloc uses
+make
+tell system dont use regular glibc malloc.. use the malloc i code ... so use env preload
+4 implementation - best fit, first fit, next fit, worst fit to find free blocks to use - first fit already implemented
+search gcc source - glibc
+implement splitting and coelescing free blocks
+there are global variables that track certain values - no. of times malloc has been called or free has been called or if you reuse one of the blocks,etc
+benchmark programs to generate a report
+
+
+type make
+for next fit, just keep track of curr, keep track of the last spot you stopped and pickup right from there
+keep incrementing the global counters evrywhere else
+
+main part of the code is traversing a linked list
+
+max heap - max number of bytes that your heap has grown
+
+values that you are printing - show them how they work between your programs

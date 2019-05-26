@@ -1,0 +1,82 @@
+November 28
+kernel
+OS role
+Interrupts
+Disks - diff betw tracks and sectors
+Process state diagram
+Process creation- fork - program output
+wait and waitpid
+exec - will give a line and say how it works
+x86 protection rings
+Address spaces
+System call vs library call
+Monolithic kernel vs microkernel
+Race conditions
+Critical Region
+Priority inversion vs starvation
+Cooperative multitasking vs preemptive multitasking
+Scheduling Algorithms - FCFS,SJN without preemption/with,Priority with/without
+No memory abstraction
+Address spaces
+Physical address vs logical addresses
+Paging Hardware
+Heap fragmentation - External fragmentation
+Managing free memory - Bitmap, Linked List
+First Fit, Worst Fit, Best fit problem
+Address translation scheme - problem
+Translation Lookaside Buffer 
+Effective access time
+Context Switches - read abt ASIDs in that slide
+Demand Paging - read what is and its advantage
+Multilevel page tables
+Page replacement algorithms - FIFO, optimal, LRU
+Belady's anamoly
+Clock page algorithm or Second chance algorithm
+Aging - Refernce counter variation
+Thrashing 
+Demand paging and thrashing
+Why file systems
+Files
+File Types - Block file and Character files
+Problem with directory structuree- naming and grouping problem
+Two level directory
+Directed Acyclic graph
+Allocation methods - Contiguous allocation, Linked allocation, Indexed allocation
+FAT32 is linked allocation file system
+Indexed allocation disadvantage - using the inode instead of storing data
+max file size - definite question
+transfer time
+File system backups
+File system consistency
+MS DOS File system - +-2 seconds, date
+ISO 96660 File system - big endien little endien
+Deadlock
+Deadlock characterization
+Handling Deadlocks
+Race Condition
+Log structured file system
+Block and character devices
+Device controllers
+de facto and de jure standards
+memory mapped I/O
+Direct Memory Access
+Precise and imprecise interrupts
+key concepts of I/O software
+RAID and RAID levels
+Cylinder skew
+Disk scheduling algorithms
+OSI Model
+Physical layer
+Datalink Layer
+Network Layer
+Transport layer
+Application Layer
+IP Adressing
+.
+.
+.
+MAC Address
+4 types of malware
+3 diff types of authentication
+2 diff types of encryption
+Virtualization - type1 and type2 hypervisors

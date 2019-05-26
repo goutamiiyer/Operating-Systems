@@ -1,0 +1,29 @@
+If you have not activated block coalescing your heap stats for bfwf.c are:
+[tbakker@omega heap]$ env LD_PRELOAD=lib/libmalloc-wf.so tests/test1
+Worst fit should pick this one: 0x18b00018
+Best fit should pick this one: 0x18b10030
+Chosen address: 0x18b00018
+heap management statistics
+mallocs: 3
+frees: 2
+reuses: 1
+grows: 2
+splits: 0
+coalesces: 0
+blocks: 2
+requested: 72536
+max heap: 71536
+[tbakker@omega heap]$ env LD_PRELOAD=lib/libmalloc-bf.so tests/test1
+Worst fit should pick this one: 0xa9a8018
+Best fit should pick this one: 0xa9b8030
+Chosen address: 0xa9b8030
+heap management statistics
+mallocs: 3
+frees: 2
+reuses: 1
+grows: 2
+splits: 0
+coalesces: 0
+blocks: 2
+requested: 72536
+max heap: 71536
